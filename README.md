@@ -33,4 +33,5 @@
 <p align="justify">Mande um email de um link com o componente para clonar, vídeos ou cursos para melhorar o aprendizado. Qualquer ajuda será bem vinda e compartilhado nesse repositório para que outros possam ter acesso e o conhecimento possas ser transmitido para outras pessoas.</p>
 
 <strong>Email:</strong> matheusmaximianomv@aluno.fapce.edu.br
+<br />
 <strong>Github:</strong> https://github.com/matheusmaximianomv

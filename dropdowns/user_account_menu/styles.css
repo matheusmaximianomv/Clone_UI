@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #ABD2EF;
+}
+
+.action {
+    position: fixed;
+    top: 20px;
+    right: 50vw;
+}
+
+.action .profile {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.action .profile img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* * */
+}
+
+.action .menu {
+    position: absolute;
+    top: 80px;
+    right: -90px;
+    padding: 10px 20px;
+    background: #fff;
+    width: 250px;
+    box-sizing: 0 5px 25px rgba(0, 0, 0, 0.1); /* * */
+    border-radius: 15px;
+    transition: 0.5s;
+
+    /* toggle */
+    visibility: hidden;
+    opacity: 0;
+}
+
+.action .menu.active {
+    /* toggle */
+    visibility: visible;
+    opacity: 1;
+}
+
+.action .menu::after /* Selector */{
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 110px;
+    width: 20px;
+    height: 20px;
+    transform: rotate(45deg);
+    background: #fff;
+}
+
+.action .menu h3 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0;
+    font-weight: 500;
+    color: #555;
+    line-height: 1.2em; /* Medida */
+}
+
+.action .menu h3 span {
+    font-size: 14px;
+    color: #cecece;
+    font-weight: 400;
+}
+
+.action .menu ul li {
+    list-style: none;
+    padding: 10px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.action .menu ul li img {
+    max-width: 20px;
+    margin-right: 20px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.action .menu ul li:hover img {
+    opacity: 1;
+}
+
+.action .menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+.action .menu ul li:hover a {
+    color: #ABD2EF;
+}

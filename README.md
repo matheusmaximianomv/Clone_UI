@@ -28,6 +28,8 @@
   * <a aria-label="User Account Dropdown Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/cards/card_hover_effects_responsive">Card Cities Hover Effects Responsive</a>
 * Dropdowns
   * <a aria-label="User Account Dropdown Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/dropdowns/user_account_menu">User Account Menu</a>
+* Landing Pages
+  *  <a aria-label="Coca-Cola Landing Page" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/landing_pages/coca-cola">Coca-Cola</a>
 
 ## Contribua
 <p align="justify">Mande um email de um link com o componente para clonar, vídeos ou cursos para melhorar o aprendizado. Qualquer ajuda será bem vinda e compartilhado nesse repositório para que outros possam ter acesso e o conhecimento possas ser transmitido para outras pessoas.</p>

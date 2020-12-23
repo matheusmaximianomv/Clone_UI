@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Responsive Landing Page Coca-Cola</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <div class="logo">
+          <img src="./assets/logo.png" alt="Logo" />
+        </div>
+        <div class="toggle" onclick="toggleMenu()"></div>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Menu</a>
+            </li>
+            <li>
+              <a href="#">What's New</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="content">
+          <h2>Taste the Feeling</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod totam odio repudiandae quos nobis, veniam assumenda repellat soluta ab, eveniet, modi asperiores eligendi hic amet perferendis sunt harum accusamus expedita. </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="slider">
+         <!-- Swiper -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/cocacola1.png" alt="Produtos">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/cocacola2.png" alt="Produtos">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/cocacola3.png" alt="Produtos">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/cocacola4.png" alt="Produtos">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/cocacola5.png" alt="Produtos">
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/cocacola6.png" alt="Produtos">
+              </div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <ul class="social-networks">
+          <li>
+            <a href="#">
+              <img src="./assets/facebook.png" alt="Facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/twitter.png" alt="Twitter" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="./assets/instagram.png" alt="Instagram" />
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </section>
+    <div class="navigate-mobile">
+      <div class="toggle" onclick="toggleMenu()"></div>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Menu</a>
+          </li>
+          <li>
+            <a href="#">What's New</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./scripts.js"></script>
+  </body>
+</html>

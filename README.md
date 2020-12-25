@@ -29,8 +29,8 @@
 * Dropdowns
   * <a aria-label="User Account Dropdown Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/dropdowns/user_account_menu">User Account Menu</a>
 * Tabs
-  * <a aria-label="Simple Tab Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/tabs/customize">Simple Tab Menu</a
-  * <a aria-label="Simple Tab Menu Indicator" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/tabs/indicator">Simple Tab Menu Indicator</a
+  * <a aria-label="Simple Tab Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/tabs/customize">Simple Tab Menu</a>
+  * <a aria-label="Simple Tab Menu Indicator" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/tabs/indicator">Simple Tab Menu Indicator</a>
 * Landing Pages
   *  <a aria-label="Coca-Cola Landing Page" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/landing_pages/coca-cola">Coca-Cola</a>
 

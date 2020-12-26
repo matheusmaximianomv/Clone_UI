@@ -26,6 +26,8 @@
 
 * Cards
   * <a aria-label="User Account Dropdown Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/cards/card_hover_effects_responsive">Card Cities Hover Effects Responsive</a>
+* Sidebars
+  * <a aria-label="User Account Dropdown Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/dropdowns/user_account_menu">Blue Sidebar Responsive</a>
 * Dropdowns
   * <a aria-label="User Account Dropdown Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/dropdowns/user_account_menu">User Account Menu</a>
 * Tabs

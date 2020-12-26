@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #051723;
+}
+
+aside.navigation {
+    position: fixed;
+    width: 60px;
+    height: 100%;
+    
+    background: #013147;
+    overflow: hidden;
+
+    transition: 0.5s;
+}
+
+aside.navigation:hover,
+aside.navigation.active {
+    width: 300px;
+}
+
+aside.navigation ul {
+    width: 100%;
+    list-style: none;
+}
+
+aside.navigation ul li {
+    width: 100%;
+}
+
+aside.navigation ul li:hover {
+    background: #01A8F7;
+}
+
+aside.navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+aside.navigation ul li a .icon {
+    min-width: 60px;
+    height: 60px;
+
+    line-height: 60px;
+    text-align: center;
+}
+
+aside.navigation ul li a .icon i {
+    font-size: 24px;
+}
+
+aside.navigation ul li a .title {
+    padding: 0 10px;
+    min-width: 60px;
+    height: 60px;
+
+    line-height: 60px;
+    text-align: start;
+    white-space: nowrap; /**/
+}
+
+div.toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    width: 60px;
+    height: 60px;
+
+    background: #013147;
+    
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+div.toggle.active {
+    background: #01A8F7;
+}
+
+div.toggle::before {
+    content: "\f0c9";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    width: 100%;
+    height: 100%;
+    line-height: 60px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+}
+
+div.toggle.active::before {
+    content: "\f00d";
+}
+
+@media (max-width: 767px) {
+    aside.navigation.active {
+        left: 0;
+        width: 100%;
+    }
+}

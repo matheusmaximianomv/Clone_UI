@@ -1,11 +1,11 @@
-<h1 align="center">Blue Sidebar Responsive</h1>
+<h1 align="center">Sidebar Responsive Theme</h1>
 <p align="center">
   <img src="../../.github/html-logo.png" height="150" width="150" alt="Icon" />
   <img src="../../.github/css-logo.png" height="158" width="158" alt="Icon" />
   <img src="../../.github/js-logo.png" height="150" width="156" alt="Icon" />
 </p>
 <p align="justify">
-  Sidebar responsivo com o controle de exibição por meio de um botão.
+  Sidebar responsivo com o controle de exibição e mudança de tema com Vanilla JS.
 </p>
 <br />
 <div align="center">
@@ -17,8 +17,14 @@
 </div>
 
 ## Apresentação
+### Siderbar
 <p align="center">
   <img src="./assets/sidebar_responsive.gif" alt="Apresentação" />
+</p>
+
+### Tema 
+<p align="center">
+  <img src="./assets/sidebar_responsive_theme.gif" alt="Apresentação" />
 </p>
 
 ## Links das Aulas

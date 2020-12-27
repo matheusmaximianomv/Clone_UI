@@ -84,7 +84,7 @@ div.toggle {
     background: #013147;
     
     display: flex;
-    align-content: center;
+    justify-content: center;
     align-items: center;
 
     cursor: pointer;
@@ -108,6 +108,29 @@ div.toggle::before {
 
 div.toggle.active::before {
     content: "\f00d";
+}
+
+div.theme {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    
+    width: 60px;
+    height: 60px;
+
+    background: #013147;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+div.theme i {
+    text-align: center;
+    font-size: 18px;
+    color: #ea1d63;
 }
 
 @media (max-width: 767px) {

@@ -26,10 +26,11 @@
 
 * Cards
   * <a aria-label="User Account Dropdown Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/cards/card_hover_effects_responsive">Card Cities Hover Effects Responsive</a>
+  * <a aria-label="Hexagon Image Hover Overlay" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/cards/hexagon_image_overlay">Hexagon Image Hover Overlay</a>
 * Sidebars
-  * <a aria-label="User Account Dropdown Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/sidebars/responsive_sidebar_menu">Sidebar Responsive Theme</a>
+  * <a aria-label="Sidebar Responsive Theme" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/sidebars/responsive_sidebar_menu">Sidebar Responsive Theme</a>
 * Dropdowns
-  * <a aria-label="User Account Dropdown Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/dropdowns/user_account_menu">User Account Menu</a>
+  * <a aria-label="User Account Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/dropdowns/user_account_menu">User Account Menu</a>
 * Tabs
   * <a aria-label="Simple Tab Menu" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/tabs/customize">Simple Tab Menu</a>
   * <a aria-label="Simple Tab Menu Indicator" href="https://github.com/matheusmaximianomv/Clone_UI/tree/master/tabs/indicator">Simple Tab Menu Indicator</a>
